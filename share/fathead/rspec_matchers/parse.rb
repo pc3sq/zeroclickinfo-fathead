@@ -1,3 +1,3 @@
 require 'nokogiri'
 
-p page = Nokogiri::HTML(open("download/rspec-expectations"))
+page = Nokogiri::HTML(open("download/rspec-expectations"))
