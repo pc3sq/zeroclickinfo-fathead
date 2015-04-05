@@ -24,6 +24,6 @@ def scrape_rspec_matchers (matchers_section)
 		current_elem = current_elem.next_element
 	end 
 
-	p headings.zip(code_samples)
+	headings.zip(code_samples)
 
 end
